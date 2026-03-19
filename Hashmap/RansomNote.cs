@@ -27,19 +27,25 @@
     {
         public bool CanConstruct(string ransomNote, string magazine)
         {
-            int[] counts = new int[26];
+            Span<int> ransomNoteMap = stackalloc int[26];
+
             foreach (char c in magazine)
             {
-                counts[c - 'a']++;
+                ransomNoteMap[c - 'a']++;
+            }
+            foreach (char c in ransomNote)
+            {
+                --ransomNoteMap[c - 'a'];
             }
 
             foreach (char c in ransomNote)
             {
-                if (--counts[c - 'a'] < 0)
+                if (ransomNoteMap[c - 'a'] < 0)
                 {
                     return false;
                 }
             }
+
 
             return true;
         }
