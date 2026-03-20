@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hashmap", "Hashmap\Hashmap.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeetCode.Tests", "tests\LeetCode.Tests\LeetCode.Tests.csproj", "{0B999DB7-729B-4E82-9EA5-0F08881C973B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryTree\BinaryTree.csproj", "{3EC70993-00F5-497D-B862-B8BFD8C29030}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,6 +49,10 @@ Global
 		{0B999DB7-729B-4E82-9EA5-0F08881C973B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B999DB7-729B-4E82-9EA5-0F08881C973B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B999DB7-729B-4E82-9EA5-0F08881C973B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EC70993-00F5-497D-B862-B8BFD8C29030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC70993-00F5-497D-B862-B8BFD8C29030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC70993-00F5-497D-B862-B8BFD8C29030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC70993-00F5-497D-B862-B8BFD8C29030}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

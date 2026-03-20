@@ -19,6 +19,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Array\Array.csproj" />
+    <ProjectReference Include="..\..\BinaryTree\BinaryTree.csproj" />
     <ProjectReference Include="..\..\Hashmap\Hashmap.csproj" />
   </ItemGroup>
 
