@@ -29,14 +29,14 @@ namespace LeetCode.Tests
             result.Should().Be(maxDepth);
         }
 
-        [InlineData("1,2,3","1,2,3",true)]
+        [InlineData("1,2,3", "1,2,3", true)]
         [InlineData("1,2", "1,null,2", false)]
         [Theory]
         public void IsSameTreeDFS(string treeFirst, string treeSecond, bool isSame)
         {
             var sut = new SameTree();
 
-            var result  = sut.IsSameTreeDFS(TreeNodeExtensions.ToTreeNode(treeFirst), TreeNodeExtensions.ToTreeNode(treeSecond));
+            var result = sut.IsSameTreeDFS(TreeNodeExtensions.ToTreeNode(treeFirst), TreeNodeExtensions.ToTreeNode(treeSecond));
 
             result.Should().Be(isSame);
         }
@@ -51,6 +51,18 @@ namespace LeetCode.Tests
             var result = sut.IsSameTreeBFS(TreeNodeExtensions.ToTreeNode(treeFirst), TreeNodeExtensions.ToTreeNode(treeSecond));
 
             result.Should().Be(isSame);
+        }
+
+        [InlineData("4,2,6,1,3", 1)]
+        [InlineData("1,0,48,null,null,12,49", 1)]
+        [Theory]
+        public void CheckMinimumAbsoluteDifference(string tree, int minDiff)
+        {
+            var sut = new MinimumAbsoluteDifference();
+
+            var result = sut.GetMinimumDifference(TreeNodeExtensions.ToTreeNode(tree));
+
+            result.Should().Be(minDiff);
         }
     }
 }
