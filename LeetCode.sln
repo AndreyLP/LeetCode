@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BinaryTree", "BinaryTree\Bi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graph", "Graph\Graph.csproj", "{31479BD8-F32D-42E5-80B8-EC79F839DD88}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Math", "Math\Math.csproj", "{C576816D-5310-4297-B143-26735913C997}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -59,6 +61,10 @@ Global
 		{31479BD8-F32D-42E5-80B8-EC79F839DD88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{31479BD8-F32D-42E5-80B8-EC79F839DD88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{31479BD8-F32D-42E5-80B8-EC79F839DD88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C576816D-5310-4297-B143-26735913C997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C576816D-5310-4297-B143-26735913C997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C576816D-5310-4297-B143-26735913C997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C576816D-5310-4297-B143-26735913C997}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
